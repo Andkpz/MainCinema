@@ -2,11 +2,11 @@
 *.log
 *.pot
 *.pyc
-cinema_backend/movies/__pycache__
-cinema_backend/local_settings.py
-cinema_backend/db.sqlite3
-cinema_backend/db.sqlite3-journal
-cinema_backend/cinema_backend/posters
+movies/__pycache__
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+posters
 
 # Django environment variables
 .env

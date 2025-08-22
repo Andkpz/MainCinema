@@ -5,10 +5,10 @@ set -o errexit
 # Установка Python зависимостей
 pip install -r requirements.txt
 
-cd cinema_backend
+
 # Очистка старых статических файлов
 python manage.py collectstatic --no-input --clear
-cd ..
+
 # Сборка фронтенда
 cd frontend
 npm install
